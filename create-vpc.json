@@ -1,0 +1,6 @@
+{
+    "DryRun": true, 
+    "CidrBlock": "172.16.0.0/16", 
+    "InstanceTenancy": "default"
+}
+
