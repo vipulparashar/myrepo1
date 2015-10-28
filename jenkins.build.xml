@@ -1,0 +1,11 @@
+<project name="jenkins" default="Jenkins">
+<description>
+
+How to test the continous integration
+
+</description>
+
+<import file="verify.build.xml"/>
+<target name="jenkins" depends="verify" description="verifies system"/>
+
+</project>
